@@ -1,0 +1,15 @@
+/home/marufa/Developer/Engenharia_de_software/Desenvolvimento_Web_com_NET_e_Bases_de_Dados/25E2_4-TP1-Console/25E2_4-TP1-Console/bin/Debug/net9.0/25E2_4-TP1-Console
+/home/marufa/Developer/Engenharia_de_software/Desenvolvimento_Web_com_NET_e_Bases_de_Dados/25E2_4-TP1-Console/25E2_4-TP1-Console/bin/Debug/net9.0/25E2_4-TP1-Console.deps.json
+/home/marufa/Developer/Engenharia_de_software/Desenvolvimento_Web_com_NET_e_Bases_de_Dados/25E2_4-TP1-Console/25E2_4-TP1-Console/bin/Debug/net9.0/25E2_4-TP1-Console.runtimeconfig.json
+/home/marufa/Developer/Engenharia_de_software/Desenvolvimento_Web_com_NET_e_Bases_de_Dados/25E2_4-TP1-Console/25E2_4-TP1-Console/bin/Debug/net9.0/25E2_4-TP1-Console.dll
+/home/marufa/Developer/Engenharia_de_software/Desenvolvimento_Web_com_NET_e_Bases_de_Dados/25E2_4-TP1-Console/25E2_4-TP1-Console/bin/Debug/net9.0/25E2_4-TP1-Console.pdb
+/home/marufa/Developer/Engenharia_de_software/Desenvolvimento_Web_com_NET_e_Bases_de_Dados/25E2_4-TP1-Console/25E2_4-TP1-Console/obj/Debug/net9.0/25E2_4-TP1-Console.GeneratedMSBuildEditorConfig.editorconfig
+/home/marufa/Developer/Engenharia_de_software/Desenvolvimento_Web_com_NET_e_Bases_de_Dados/25E2_4-TP1-Console/25E2_4-TP1-Console/obj/Debug/net9.0/25E2_4-TP1-Console.AssemblyInfoInputs.cache
+/home/marufa/Developer/Engenharia_de_software/Desenvolvimento_Web_com_NET_e_Bases_de_Dados/25E2_4-TP1-Console/25E2_4-TP1-Console/obj/Debug/net9.0/25E2_4-TP1-Console.AssemblyInfo.cs
+/home/marufa/Developer/Engenharia_de_software/Desenvolvimento_Web_com_NET_e_Bases_de_Dados/25E2_4-TP1-Console/25E2_4-TP1-Console/obj/Debug/net9.0/25E2_4-TP1-Console.csproj.CoreCompileInputs.cache
+/home/marufa/Developer/Engenharia_de_software/Desenvolvimento_Web_com_NET_e_Bases_de_Dados/25E2_4-TP1-Console/25E2_4-TP1-Console/obj/Debug/net9.0/25E2_4-TP1-Console.sourcelink.json
+/home/marufa/Developer/Engenharia_de_software/Desenvolvimento_Web_com_NET_e_Bases_de_Dados/25E2_4-TP1-Console/25E2_4-TP1-Console/obj/Debug/net9.0/25E2_4-TP1-Console.dll
+/home/marufa/Developer/Engenharia_de_software/Desenvolvimento_Web_com_NET_e_Bases_de_Dados/25E2_4-TP1-Console/25E2_4-TP1-Console/obj/Debug/net9.0/refint/25E2_4-TP1-Console.dll
+/home/marufa/Developer/Engenharia_de_software/Desenvolvimento_Web_com_NET_e_Bases_de_Dados/25E2_4-TP1-Console/25E2_4-TP1-Console/obj/Debug/net9.0/25E2_4-TP1-Console.pdb
+/home/marufa/Developer/Engenharia_de_software/Desenvolvimento_Web_com_NET_e_Bases_de_Dados/25E2_4-TP1-Console/25E2_4-TP1-Console/obj/Debug/net9.0/25E2_4-TP1-Console.genruntimeconfig.cache
+/home/marufa/Developer/Engenharia_de_software/Desenvolvimento_Web_com_NET_e_Bases_de_Dados/25E2_4-TP1-Console/25E2_4-TP1-Console/obj/Debug/net9.0/ref/25E2_4-TP1-Console.dll
