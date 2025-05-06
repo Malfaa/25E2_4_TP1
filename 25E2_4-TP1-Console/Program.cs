@@ -24,7 +24,6 @@ class Program
             Console.WriteLine("6 - Exercício 6");
             Console.WriteLine("7 - Exercício 7");
             Console.WriteLine("11 - Exercício 11");
-            Console.WriteLine("12 - Exercício 12");
             Console.WriteLine("0 - Sair");
             Console.WriteLine("Escolha um exercício: ");
             int escolha = Convert.ToInt32(Console.ReadLine());
