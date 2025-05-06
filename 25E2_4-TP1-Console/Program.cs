@@ -4,16 +4,9 @@ using _25E2_4_TP1_Console.Exercicio4;
 using _25E2_4_TP1_Console.Exercicio5;
 using _25E2_4_TP1_Console.Exercicio6;
 using _25E2_4_TP1_Console.Exercicio7;
-
-// using _25E2_4_TP1_Console.Exercicio7;
-// using _25E2_4_TP1_Console.Exercicio8;
-// using _25E2_4_TP1_Console.Exercicio9;
-// using _25E2_4_TP1_Console.Exercicio10;
-// using _25E2_4_TP1_Console.Exercicio11;
-// using _25E2_4_TP1_Console.Exercicio12;
+using _25E2_4_TP1_Console.Exercicio11;
 
 namespace _25E2_4_TP1_Console;
-
 
 class Program
 {
@@ -30,9 +23,6 @@ class Program
             Console.WriteLine("5 - Exercício 5");
             Console.WriteLine("6 - Exercício 6");
             Console.WriteLine("7 - Exercício 7");
-            Console.WriteLine("8 - Exercício 8");
-            Console.WriteLine("9 - Exercício 9");
-            Console.WriteLine("10 - Exercício 10");
             Console.WriteLine("11 - Exercício 11");
             Console.WriteLine("12 - Exercício 12");
             Console.WriteLine("0 - Sair");
@@ -122,27 +112,44 @@ class Program
                     down.VerificaDownload(true);
                     break;
                 case 6:
-                    Action<string> logs = Logger.LogToConsole;
-                    logs += Logger.LogToFile;
-                    logs += Logger.LogToDatabase;
-                    logs("Devidos logs aparecendo!");
+                    Logger logger = new Logger();
+                    Action<string> log = logger.LogToConsole;
+                    log += logger.LogToFile;
+                    log += logger.LogToDatabase;
+                    log("Devidos logs aparecendo!");
                     break;
                 case 7:
-                    var logger = new InvocacaoDelegates();
+                    InvocacaoDelegates invoDel = new InvocacaoDelegates();
+                    Action<string> logs = invoDel.LogToConsole;
+                    logs += invoDel.LogToFile;
+                    logs += invoDel.LogToDatabase;
+        
+                    logs?.Invoke("Mensagem de teste com os métodos");
+        
+                    logs -= invoDel.LogToFile;
+                    logs -= invoDel.LogToDatabase;
+                    logs -= invoDel.LogToConsole;
+
+                    logs?.Invoke("Mensagem testando método removidos");
                     
-                    logger += Logger.LogToFile;
-                    logger += Logger.LogToDatabase;
-                    logger("Devidos logs aparecendo!");
+                    Console.WriteLine("\nLogs não causaram exception");
                     break;
                 case 8:
+                    Console.WriteLine("Exercício em outro projeto!");
                     break;
                 case 9:
+                    Console.WriteLine("Exercício em outro projeto!");
                     break;
                 case 10:
+                    Console.WriteLine("Exercício em outro projeto!");
                     break;
                 case 11:
+                    DelEnc conc = new DelEnc();
+                    string nomeSobr = conc.ConcatenacaoNome("Gustavo","Malfa");
+                    Console.WriteLine(nomeSobr);
                     break;
                 case 12:
+                    Console.WriteLine("Exercício em outro projeto!");
                     break;
                 case 0 :
                     return;

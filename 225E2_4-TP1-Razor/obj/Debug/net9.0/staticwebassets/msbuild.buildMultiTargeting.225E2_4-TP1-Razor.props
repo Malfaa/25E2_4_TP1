@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/225E2_4-TP1-Razor.props" />
+</Project>
