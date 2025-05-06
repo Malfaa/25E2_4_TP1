@@ -14,7 +14,6 @@ class Program
     {
         while (true)
         {
-            // Console.Clear();
             Console.WriteLine("\n\n=== Escolha um exercício para executar ===");
             Console.WriteLine("1 - Exercício 1");
             Console.WriteLine("2 - Exercício 2");

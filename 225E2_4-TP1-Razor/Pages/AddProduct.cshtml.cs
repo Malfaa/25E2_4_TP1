@@ -1,3 +1,4 @@
+using System.Globalization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -17,7 +18,7 @@ public class AddProduct : PageModel
     {
         Mensagem = $"Produto cadastrado com sucesso! Nome: {Produto.Name}," +
                    $" " +
-                   $"Preço: {Produto.Price:C}";
+                   $"Preço: R${Produto.Price.ToString("N2", new CultureInfo("pt-BR"))}";
     }
 }
 
